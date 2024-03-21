@@ -6,7 +6,7 @@
   <artifactId>ejercicioDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>ejercicio-1</name>
+  <name>ejercicioDemo</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
