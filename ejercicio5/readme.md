@@ -1,1 +1,1 @@
-<![alt](./assets/5.png)>
+![alt](./assets/5.png)
