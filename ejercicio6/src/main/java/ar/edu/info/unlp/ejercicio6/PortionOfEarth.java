@@ -33,19 +33,16 @@ public class PortionOfEarth implements Topography {
 
 	@Override
 	public boolean equalWater() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public boolean equalEarth() {
-		// TODO Auto-generated method stub
 		return true;
 	}
 
 	@Override
 	public boolean equalSwamp() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

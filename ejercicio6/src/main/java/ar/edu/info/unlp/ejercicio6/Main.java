@@ -20,5 +20,6 @@ public class Main {
 		System.out.println(composite2.equals(composite3));
 		System.out.println("Composite Agua: \n" + s.getProportionOfWater());
 		System.out.println("Composite Tierra: \n" + s.getProportionOfEarth());
+		System.out.println("nada".equals("nada"));
 	} 
 }
