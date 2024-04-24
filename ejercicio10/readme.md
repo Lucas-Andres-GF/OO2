@@ -14,3 +14,5 @@ Tareas:
 - Modifique el diseño para que el objeto Encriptador pueda encriptar mensajes usando los algoritmos Blowfish y RC4, además del ya soportado RSA.
 
 - Documente mediante un diagrama de clases UML indicando los roles de cada clase.
+
+<img src="Ejercicio10.drawio.png">
