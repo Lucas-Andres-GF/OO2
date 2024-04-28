@@ -1,6 +1,6 @@
 Ejercicio 16 - Estación meteorológica
 
-- Sea una estación meteorológica hogareña que permite conocer información de varios aspectos del clima. Esta estación está implementada con la clase HomeWeatherStation que interactúa con varios sensores para conocer fenómenos físicos. La misma implementa los siguientes métodos:
+Sea una estación meteorológica hogareña que permite conocer información de varios aspectos del clima. Esta estación está implementada con la clase HomeWeatherStation que interactúa con varios sensores para conocer fenómenos físicos. La misma implementa los siguientes métodos:
 
 ```java
 //retorna la temperatura en grados Fahrenheit.
@@ -21,6 +21,7 @@ return "Temperatura F: " + this.getTemperatura() +
    	  "Presión atmosf: " + this.getPresion() +
    	  "Radiación solar: " + this.getRadiacionSolar();
 }
+
 ```
 
 Esta clase se encuentra implementada por terceros y no se puede modificar. Pero sabemos que implementa la interfaz WeatherData que define los mismos mensajes.
@@ -42,6 +43,7 @@ Las temperaturas mínima y máxima histórica.
   - Ej 7: “Temperatura C: 30; Presión atmosf: 1008; Radiación solar: 200; Mínimo: 27 Máximo: 32; Promedio: 30;”
 
 En cada uno de los ejemplos, la aplicación puede mostrar diferentes configuraciones de los datos, según lo que el usuario haya seleccionado previamente. Por ejemplo, la inclusión del promedio de temperatura (ya sea en grados Celsius o Fahrenheit) dependerá de la configuración de temperatura previamente establecida por el usuario.
+
 Usted debe proveer la implementación del mensaje public String displayData() que devuelva los datos según lo configurado (dado que la app aun no cuenta con interface de usuario).
 
 Tareas:
