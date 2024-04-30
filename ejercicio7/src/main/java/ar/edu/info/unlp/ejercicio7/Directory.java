@@ -46,7 +46,6 @@ public class Directory extends FileSystem {
 				.filter(e1 -> e1.getName().equals(nombre))
 				.findFirst()
 				.orElse(null);
-
 	}
 
 	public List<FileSystem> buscarTodos(String nombre) {
@@ -64,7 +63,7 @@ public class Directory extends FileSystem {
 
 	@Override
 	public String listadoDeContenido() {
-		return "To do";
+		String directory = this.getName();
 	}
 
 }
