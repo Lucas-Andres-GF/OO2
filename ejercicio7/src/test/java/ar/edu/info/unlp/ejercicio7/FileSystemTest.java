@@ -24,6 +24,10 @@ public class FileSystemTest {
 
 		File gta = new File("gta", 21, 18, 8, 2019);
 		root.addElement(gta);
+
+		root.addElement(gta);
+		root.addElement(minecraft);
+		root.addElement(csgo);
 	}
 
 	@Test
@@ -41,5 +45,8 @@ public class FileSystemTest {
 		assertEquals("/index.html", root.archivoMasNuevo().getName());
 	}
 
-	
+	@Test
+	public void listadoDeContenidoTest() {
+		System.out.println(root.listadoDeContenido());
+	}
 }

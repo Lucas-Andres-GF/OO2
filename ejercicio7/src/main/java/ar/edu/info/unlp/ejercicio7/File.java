@@ -32,7 +32,6 @@ public class File extends FileSystem {
 
 	@Override
 	public FileSystem buscar(String nombre) {
-		// TODO Auto-generated method stub
 		throw new UnsupportedOperationException("Unimplemented method 'buscar'");
 	}
 
@@ -47,8 +46,7 @@ public class File extends FileSystem {
 
 	@Override
 	public String listadoDeContenido() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Unimplemented method 'listadoDeContenido'");
+		return this.getName();
 	}
 
 }

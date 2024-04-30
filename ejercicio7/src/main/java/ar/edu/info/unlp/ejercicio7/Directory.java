@@ -64,8 +64,7 @@ public class Directory extends FileSystem {
 
 	@Override
 	public String listadoDeContenido() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Unimplemented method 'listadoDeContenido'");
+		return "To do";
 	}
 
 }
