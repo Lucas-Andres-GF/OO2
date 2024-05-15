@@ -61,7 +61,10 @@ public class ToDoItemTest {
 		task1.start();
 		task1.finish();
 		assertEquals(2, task1.getComments().size());
-		task1.addComment("Este no se ve");
+		assertThrows(
+			RuntimeException.class, () -> {
+				task1.addComment("Este no se ve");
+			});
 		task1.getComments().forEach(c -> System.out.println(c + "\n"));
 	}
 

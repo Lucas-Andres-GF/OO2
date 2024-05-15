@@ -22,18 +22,18 @@ public class TodoItem {
   }
 
   public void start() {
-    this.state.start(this);
+    this.state = state.start(this);
   }
 
   public void togglePause() {
-    this.state.togglePause(this);
+    this.state = state.togglePause();
   }
 
   public void finish() {
-    this.state.finish(this);
+    this.state = state.finish(this);
   }
 
-  public long workedTime() {
+  public long workedTime() { // HACERLO CON DURATIONNNN"""!!!
     return this.state.workedTime(this);
   }
 

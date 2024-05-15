@@ -63,7 +63,7 @@ public class Directory extends FileSystem {
 
 	@Override
 	public String listadoDeContenido() {
-		String directory = this.getName();
+		return "Hacer"; 
 	}
 
 }

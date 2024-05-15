@@ -32,7 +32,7 @@ public class FileSystemTest {
 
 	@Test
 	public void tamanoTotalOcupadoTest() {
-		assertEquals(312, root.tamanoTotalOcupado());
+		assertEquals(546, root.tamanoTotalOcupado());
 	}
 
 	@Test
