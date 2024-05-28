@@ -12,3 +12,4 @@ public class CompraPesos extends CompraDivisa {
         return 0;
     }
 }
+    

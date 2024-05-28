@@ -7,5 +7,5 @@ public abstract class ProductoFinanciero {
     public ProductoFinanciero() {
         this.fechaDeOperacion = LocalDate.now();
     }
-    public abstract double retornoInversion();    
+    public abstract double retornoInversion();  
 }
