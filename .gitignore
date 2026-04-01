@@ -1,0 +1,17 @@
+# Maven - Archivos de compilación
+target/
+
+# IDEs (Eclipse, IntelliJ, VS Code)
+.settings/
+.project
+.classpath
+.metadata/
+.recommenders/
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
